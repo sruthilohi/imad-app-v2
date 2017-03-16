@@ -1,1 +1,71 @@
-
+<!doctype html>
+<html>
+     <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=Edge" >
+         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link href="/ui/style.css" rel="stylesheet" />
+        <link rel="shortcut icon" href="data:image/x-icon;," type="image/x-icon"> 
+        <style>
+            body  {
+                background-image: url("ui/2013-12-07 15.49.05.jpg");
+                background-color: #cccccc;
+            }
+            </style>
+    </head>
+    <body>
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+                  <div class="container-fluid">
+                    <div class="navbar-header">
+                         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>                        
+              </button>
+                      <a class="navbar-brand" href="#">blog</a>
+                    </div>
+                    <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav navbar-right">
+                      <li class="active"><a href="/">Home</a></li>
+                      <li><a href="ui/personal.html">Personal</a></li>
+                       <li class="dropdown">
+                        <a class="dropdown-toggle fa fa-envelope" data-toggle="dropdown" href="#">Contact
+                        <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                          <li><a href="#">Twitter</a></li>
+                        </ul>
+                    </ul>
+                  </div>
+                  </div>
+                </nav>
+       <div class="container">
+                <hr/>
+                <h2 class="center bg-info">Article</h2>
+                  
+                <hr/>
+             <div class="well jumbotron">   
+              <input type = "text" id="title" placeholder="Title"/>
+              <input type = "text" id="heading" placeholder="Heading"/>
+              <textarea id="article_text" rows="8" cols="80" placeholder="Enter your Article here..."></textarea>
+              <br/><br/>
+              <button type="button" id="article_btn" class="btn btn-info">
+                <span class="glyphicon "></span>Submit
+              </button>
+              </div> 
+              <br/><br/>
+    
+               
+                <hr/>
+               
+               <div class="footer">
+                   
+               </div>
+         </div>
+                <script type="text/javascript" src="ui/newarticle.js">
+                 
+        </script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    </body>
+</html>
